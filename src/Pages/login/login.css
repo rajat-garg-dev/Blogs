@@ -1,0 +1,46 @@
+.login{
+    height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PDQ0NDw8PDQ0NDQ0NDQ0NDw8PDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIALcBEwMBIgACEQEDEQH/xAAbAAEBAQEBAQEBAAAAAAAAAAAAAQIDBAUGB//EACwQAQEAAQIEBQMDBQAAAAAAAAABAgMRITFBUQRhcYGREhOhIlKxFEJiwdH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A/qqgAKACgAKCCgAoACgAoAAKAAoAAAAAAAAAIoDNSrUoMgoOaigigAoACgAAAoACgigCgAKACooAAAAAAGwAIKgIzWkoMqbAMAAoACgAKAAAKAAKCKAAKAACgAAoAACKAgqAAAiVQGdhdkBzUAFRQAAUABQABQAAAAFAAFAAAVFAGbnGbqeQOibuVyt6s7A7/VO8T6p3jjsbA7fVO8Xdw2Ngd0cfqvdqalBsY+55AIoAAAKAKAAoAAoIoAAAAoIoAJcp3Yyz35MbA6XU7MW2gAMZ6uOPO+3Vxy8X2x+QelXhviM71k9I55W3nbfWg+hcp3nyfVO8+Y+d9J9IPpD5n0tzUynLK+/EH0EeTHxWU5yX04V1x8Vjee89YDsMfew/dEB2BQRQAUABQAABQAABQAAYzz6QFyz2c7bRQQt241x1fEycJ+q/iPNnqZZc77dAddTxV/tnvXK6ud55X24fwmwDMjWyoBsJdSerN1PIHRHP7l8j7l8gdDZz+5fJfu+QNbJsfci7+gJsKA+koAKAAKAAACgigAqKAJllI55Zb+UBcs+k+WYMautMefG9pzBu3ab3g8mtr3LhOGP5rGpqXLny7dE2BJFS3Zi6lB0Yup24sW0AuVTZSggxdXGdZ7cWL4mdJb+Adh5r4m/t/J/U39v5B6R554rvj8VrHxOPnPWA6myY5S8rK0DOyig+woACgAAAoACggrGWpOnH+AaYyz7fLNtvNyz18ceu97TiDpszqakx532615c/EZXl+meXP5c5iDpqa+V5fpnlz+XOYtSFoGzOWbGWW/omwFBx1NeThON/EB1yyk52RzviMe+/pHly48bxpsDrn4i3lwnzXK73nvfUATZdgA2ABDZQGdm8dTKdfniiA6f1GX+P5HMB+oUAAUAABRjLU7cQbYupOnFyzy628PPk82p4npj83/gPTqZ9crtHnz8X+2b+d4Rwu94273zWYgZamWXO+04RJi1sAbCs5ZbAtuzlld0t3AGdTUmM48+kY1daThON/Eea3e73jQXU1Llz5dujOygAACKAgAAAAAAAIAD9QqbgNCG4KmWezGWp2+XLPUmM3vx1oOmWVrz6niZOE/Vfw46mrcvKdp/tiQDPK5Xe3f8AiLIuyggqAFrOWfbj/DnbuDVzvTgyznqY4877dXnz8RbwnCd+oO+pqzHnz7Tm8+pr28Jwn5c9l2BJFAAABF2AQAAAAAAAAAEFAfqdjZWcs9vUDLg53iPP4jW/tnvf9AutrycJxvfpHl43jeN7rIoEgAKMXU7OeefW3gDpln7ueV73h+Hnz8T+2e9/44ZW3ndwerLxGM5fqvly+XDPWyv+M8ufyxI1IDMxXZQDYADYUBAADYUGV2FgJsjQDKNWICAAAAIoD9Pnn0jAAxrZ7TzvB41AQUBjLPb1Ytt5oA46mvtwnG+fKPPlbeNu4AbKAAAAAAAAAAAIAAu4Abm4AqUARAAAAAB//9k=");
+    background-size: cover;
+}
+.loginTitle{
+    font-size: 50px;
+}
+.loginForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginForm > label{
+    margin: 10px 0;
+}
+.loginInput{
+    padding: 10px;
+    border-color: white;
+    border:none;
+
+}
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color:lightcoral;
+    border:none;
+    color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color:white;
+    border-radius:10px;
+}
